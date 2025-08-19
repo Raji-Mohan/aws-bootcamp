@@ -21,7 +21,7 @@ Create a new Admin Group and apply AdministratorAccess
 
 Create the user and go find and click into the user
 
-Click on Security Credentials and Create Access Key
+Create Access Key
 
 Choose AWS CLI Access
 
