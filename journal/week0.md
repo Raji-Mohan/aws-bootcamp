@@ -1,3 +1,5 @@
+# Week 0 — Billing and Architecture
+
 # Update our gitpod.yml to include the following task
 tasks:
   - name: aws-cli
