@@ -26,18 +26,18 @@ Click on Security Credentials and Create Access Key
 Choose AWS CLI Access
 
 # Set Env Vars
-export AWS_ACCESS_KEY_ID=""
-
-export AWS_SECRET_ACCESS_KEY=""
-
-export AWS_DEFAULT_REGION=us-east-1
+        export AWS_ACCESS_KEY_ID=""
+        
+        export AWS_SECRET_ACCESS_KEY=""
+        
+        export AWS_DEFAULT_REGION=us-east-1
 
 # gitpod env vars
-gp env AWS_ACCESS_KEY_ID=""
-
-gp env AWS_SECRET_ACCESS_KEY=""
-
-gp env AWS_DEFAULT_REGION=us-east-1
+        gp env AWS_ACCESS_KEY_ID=""
+        
+        gp env AWS_SECRET_ACCESS_KEY=""
+        
+        gp env AWS_DEFAULT_REGION=us-east-1
 
 # Check that the AWS CLI is working and you are the expected user
-aws sts get-caller-identity
+        aws sts get-caller-identity
