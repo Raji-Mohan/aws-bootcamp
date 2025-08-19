@@ -1,7 +1,4 @@
-# Week 0 — Billing and Architecture
-Update our .gitpod.yml to include the following task.
-
-# gitpod.yml 
+# Update our gitpod.yml to include the following task
 tasks:
   - name: aws-cli
     env:
@@ -33,5 +30,3 @@ gp env AWS_DEFAULT_REGION=us-east-1
 
 # Check that the AWS CLI is working and you are the expected user
 aws sts get-caller-identity
-
-
