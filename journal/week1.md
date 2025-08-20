@@ -40,3 +40,10 @@ error message as the env variables FRONTEND_URL, BACKEND_URL defined in app.py v
     docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask
 
 append to the url to /api/activities/home on the ports tab to get the json file
+
+# docker command
+    docker ps
+    docker images
+    docker ps -a (shows docker containers not running and not destroyed)
+    docker run --rm (destroys containers as soon as the container stops)
+
