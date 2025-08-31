@@ -103,4 +103,4 @@ Open openapi-3.0.yml file from backend flask
 In the get section, add one for notification by copying contents from home
 
 In frontend-react-js, modify app.py to add contents for notifications
-Create new page NotificationsFeedPage.js and NotificationsFeedPage.css s
+Create new page NotificationsFeedPage.js and NotificationsFeedPage.css
